@@ -1,0 +1,120 @@
+:root{
+  font-size: 62.5%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-family: "Alice", sans-serif;
+}
+
+
+body {
+  background: linear-gradient(rgba(87, 56, 36, 0.5), rgba(87, 56, 36, 0.5)), url('./assets/main-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+main {
+  margin: 4.8rem 24rem 10rem;
+  background-color: #F0E8C2;
+  border-radius: 1.6rem;
+  width: 80rem;
+  margin-bottom: 1.8rem;
+  
+  
+  
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.about p {
+  margin-top: 1rem;
+}
+
+.image{
+  text-align: center;
+}
+
+.about {
+  text-align: start;
+  padding-left: 1.2rem;
+  width: 72.5rem;
+  margin-top: 1.5rem;
+  
+  
+}
+
+.image img{
+  width: 72.5rem;
+  height: 40rem;
+  border-radius: 1.6rem;
+  margin: 1.5rem
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.ingredientes {
+  width: 70.4rem;
+  margin-top: 1.5rem;
+}
+
+.modo-de-preparo{
+  width: 70.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  
+}
+
+ul li {
+  margin: 0.4rem 2.4rem 0
+}
+
+h2{
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: center;
+  color: #F0E8C2;
+  margin-bottom: 4.8rem;
+}
+
+ h1, h2, h3 {
+  color: #291B1A ;
+}
+
+p, li {
+  color: #573A37;
+  line-height: 1.8rem;
+}
